@@ -8,8 +8,7 @@ local text = 'Hello World'
 
 --End of Global Scope-----------------------------------------------------------
 
---Declaration of the 'main' function as an entry point for the event loop
---@main()
+---Declaration of the 'main' function as an entry point for the event loop
 local function main()
   -- Open the files for writing and write the content of text variable
   local prvFileWrite = File.open(prvFileName, 'wb')
